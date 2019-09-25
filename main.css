@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:0;
+    height: 100vh;
+}
+
+.heading-text{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+.heading-text > p{
+    font-size: 20px;
+    color: grey;
+    
+}
+.rightside{
+    background: linear-gradient(#0D25B9, #FD6585);
+}
+.bottom{
+    margin-top: 25px;
+    text-align: center;
+}
+.bottom >p {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+/*Form*/
+form{
+    margin-left: 8.1rem;
+    margin-right: 8.1rem;
+    margin-top: 6rem;
+}
+input{
+    height: 1.8rem;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+input::-webkit-input-placeholder {
+    direction: rtl;
+    text-align: center;
+   
+}
+#first-name,
+#Last-name{
+    width: 13rem;
+}
+#email,
+#password{
+    width: 27.5rem;
+}
+
+
+
+
+/* Images */
+.left-image{
+    width: 90%;
+    height: 80%;
+}
+.logo{
+    margin: 0 auto;
+}
+.logo > img{
+    display: block;
+    width: 14rem;
+    height: 15rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+
+/*Utility*/
+button{
+    padding: 0.8rem;
+    border-radius: 13px;
+    width: 9rem;
+    background-color: #C95790;
+    border: none;
+    box-shadow:  0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    color: white;
+}
+.txt-lg{
+    font-size: 1.7rem;
+}
+.txt-md{
+    font-size: 15px;
+}
+
+
+/*Icons*/
+#f-user {
+  position: relative;
+  z-index: 1;
+  left:5px;
+  top: 1px;
+  color: #7B7B7B;
+  cursor: pointer;
+  width: 0;
+}
+#l-user {
+  position: relative;
+  z-index: 1;
+  left:10px;
+  top: 1px;
+  color: #7B7B7B;
+  cursor: pointer;
+  width: 0;
+}
+#envelope {
+  position: relative;
+  z-index: 1;
+  left:5px;
+  top: 1px;
+  color: #7B7B7B;
+  cursor: pointer;
+  width: 0;
+}
+#lock {
+  position: relative;
+  z-index: 1;
+  left:5px;
+  top: 1px;
+  color: #7B7B7B;
+  cursor: pointer;
+  width: 0;
+}
