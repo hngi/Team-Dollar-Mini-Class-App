@@ -2,8 +2,6 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
-    
-
 }
 .main-container{
     display: grid;
@@ -16,7 +14,6 @@ html, body{
     margin-top: 2.5rem;
     text-align: center;
     font-family: 'Italiana', serif;
-
 }
 .heading-text > p{
     font-size: 20px;
@@ -29,6 +26,7 @@ html, body{
 .bottom{
     margin-top: 25px;
     text-align: center;
+    font-family: 'Pragati Narrow', sans-serif;
 }
 .bottom >p {
     margin-top: 5px;
@@ -38,7 +36,6 @@ html, body{
 }
 .bottom-txt{
     margin-top: 1rem;
-    
 }
 .btm-left-txt{
     float: left;
@@ -67,19 +64,17 @@ input{
     margin-top: 0.5rem;
     border-radius: 0 5px 5px 0;
     border: none;
-    font-family: 'Pragati Narrow', sans-serif;
 }
 input::-webkit-input-placeholder {
     direction: ltr;
     font-family: 'Pragati Narrow', sans-serif;
-
    
 }
-.input1, .input2, .input3, .input4{
+.input1, .input2{
     display: grid;
     grid-template-columns: 1fr 7fr;
 }
-.icon1, .icon2, .icon3, .icon4{
+.icon1, .icon2 {
     top:10rem;
 
 }
@@ -126,28 +121,22 @@ button{
 
 /*Icons*/
 #f-user {
-   z-index: 1;
-  color: black;
-  float: right;
-  background: white;
-  width: 1.5rem;
-  height: 1.8rem;
-  text-align: center;
-  padding: 0.7rem;
-  margin-top: 0.5rem;
-  border-radius: 5px 0 0 5px; 
+  position: relative;
+  z-index: 1;
+  left:5px;
+  top: 1px;
+  color: #7B7B7B;
+  cursor: pointer;
+  width: 0;
 }
 #l-user {
- z-index: 1;
-  color: black;
-  float: right;
-  background: white;
-  width: 1.5rem;
-  height: 1.8rem;
-  text-align: center;
-  padding: 0.7rem;
-  margin-top: 0.5rem;
-  border-radius: 5px 0 0 5px; 
+  position: relative;
+  z-index: 1;
+  left:10px;
+  top: 1px;
+  color: #7B7B7B;
+  cursor: pointer;
+  width: 0;
 }
 #envelope {
 
@@ -216,16 +205,6 @@ input{
     text-align: center;
 }
 #lock{
-    margin-top: 0.5rem;
-    padding: 0.1rem;
-    float: right;
-}
-#f-user{
-    margin-top: 0.5rem;
-    padding: 0.1rem;
-    float: right;
-}
-#l-user{
     margin-top: 0.5rem;
     padding: 0.1rem;
     float: right;
